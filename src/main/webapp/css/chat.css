@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'sround' ;
+    src: url('../font/Cafe24SsurroundAir/Cafe24SsurroundAir.ttf');
+}
+/*일반 태그*/
+body{
+    font-family: 'sround';
+    max-width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*일반 태그*/
+
+/*헤더*/
+.navbar_info{
+    display: flex;
+    gap: 25px;
+}
+.nav_icons{
+    position: relative;
+}
+.nav_icons a{
+    display: inline-block;
+}
+
+.red_count_badge{       
+    background: #ff4747;
+    max-width: 8px;
+    min-width: 13px;
+    height: 13px;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: -8px;
+    left: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 2px;
+    font-family: "Dotum";
+}
+
+#banner{
+    width: 100%;
+    background-color: #77D87D;
+    height: 100px;
+    margin-bottom: 65px;
+    color: #ffffff;
+    position: relative;
+}
+#banner h3{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+
+
+/*메인*/
+main{
+    width: 900px;
+    margin : 0 auto;
+}
+
+section{
+	margin-bottom: 50px;
+}
+
+.member_nickname{
+    border-bottom: 2px solid #e8e8e8;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.member_nickname .chat_close{
+    float: right;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: #77D87C;
+}
+
+.chat_box{
+    margin-bottom: 10px;
+}
+
+.chat_box .chat_area{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    resize: none;
+    height: 400px;
+}
+
+.chat_area{
+    overflow: auto;
+}
+
+.chat_area p{
+	height: auto;
+    width: 50%;
+    border-radius: 6px;
+    padding: 5px;
+    word-break: break-all;
+    
+}
+
+.message_wrap{
+	height: auto;
+}
+
+.message_wrap p{
+	margin-bottom: 0;
+}
+
+.recipient{
+	background-color: #77D87C;
+}
+
+.sender{
+	margin-left : 50%;
+	background-color:#9cdbdb; 
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.sender_registdate{
+    margin-left: 50% !important;	
+}
+
+.input_message{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    resize: none;
+}
+
+.message_box{
+    width: 70%;
+}
+
+
+.input_chat{
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    height: 42px;
+}
+
+.btn_style{
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #77D87C;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 42px;
+}
+
+#location_search{
+	width:85%;
+}
+
+#kakao_url a{
+	font-size : 20px;
+}
+
+
+.message_registDate{
+	color:gray;
+	font-size: 12px;
+}
+
+.location_transfer_btn{
+	width: 200px;
+	height: 50px;
+	font-size : 20px;
+}
+
+/*메인*/
+
+
+

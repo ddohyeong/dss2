@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'sround' ;
+    src: url('../font/Cafe24SsurroundAir/Cafe24SsurroundAir.ttf');
+}
+/*일반 태그*/
+body{
+    font-family: 'sround';
+    max-width: 1140px;
+    margin: auto;
+    background-color: #f5f6f7;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*일반 태그*/
+
+/*메인*/
+.info_wrapper{
+    margin: 0 auto;
+    max-width: 768px;
+    min-width: 460px;
+}
+
+.header img{
+    width: 786px;
+    height: 220px;
+}
+
+.info_content{
+    width: 455px;
+    margin: 0 auto;
+}
+
+.info_box{
+    margin-bottom: 20px;
+}
+
+.inputBox{
+    height: 50px;
+    display: block;
+    border: 1px solid #dadada;
+    padding: 10px 0px;
+    background-color: white;
+    font-family: Dotum;
+
+}
+
+.info_content form input{
+    width: 450px;
+    border: none;
+    cursor: pointer;
+}
+
+.info_content button{
+    width: 455px;
+    border: none;
+    background: #77D87C;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+#withdraw_btn{
+	float: right;
+    width: 30%;
+}
+
+.pw_input_btn{
+    display: flex;
+}
+
+.pw_input_btn .inputBox{
+    width: 70%;
+}
+.pw_input_btn .pw_change_btn{
+    width: 30%;
+}
+
+.email_input_btn{
+    display: flex;
+    margin-bottom: 5px;
+}
+.email_input_btn .inputBox{
+    width: 70%;
+}
+
+.email_input_btn .send_code{
+    width: 30%;
+}
+
+
+.tel_wrap{
+    display: flex;
+    gap: 7%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.tel_wrap div{
+    width: 30%;
+
+    height: 50px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+
+.tel_wrap input{
+    width: 100% !important;
+    border: none;
+    padding: 12px 10px;
+}
+
+.next_change_btn{
+	margin-bottom: 30px;
+}
+/*메인*/

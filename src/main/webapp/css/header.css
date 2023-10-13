@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+.navbar_info{
+    display: flex;
+    gap: 25px;
+    width: auto;
+}
+
+
+.font_40{
+	font-size: 40px;
+}
+
+.color_green{
+	color: #77D87D;
+}
+
+.font_bold{
+	font-weight: bold;
+}
+
+.line_h_50{
+	line-height: 50px;
+}
+
+.nav_icons{
+    position: relative;
+}
+.nav_icons a{
+    display: inline-block;
+}
+
+.red_count_badge{       
+    background: #ff4747;
+    max-width: 8px;
+    min-width: 13px;
+    height: 13px;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: -8px;
+    left: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 2px;
+    font-family: "Dotum";
+}

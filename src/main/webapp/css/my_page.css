@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'sround' ;
+    src: url('../font/Cafe24SsurroundAir/Cafe24SsurroundAir.ttf');
+}
+/*일반 태그*/
+body{
+    font-family: 'sround';
+    max-width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*일반 태그*/
+
+/*헤더*/
+.navbar_info{
+    display: flex;
+    gap: 25px;
+}
+.nav_icons{
+    position: relative;
+}
+.nav_icons a{
+    display: inline-block;
+}
+
+.red_count_badge{       
+    background: #ff4747;
+    max-width: 8px;
+    min-width: 13px;
+    height: 13px;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: -8px;
+    left: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 2px;
+    font-family: "Dotum";
+}
+
+#banner{
+    width: 100%;
+    background-color: #77D87D;
+    height: 100px;
+    margin-bottom: 65px;
+    color: #ffffff;
+    position: relative;
+}
+#banner h3{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.sidebar{
+    margin-right: 50px;
+}
+
+.side_list{
+    width: 200px;
+    height: 300px;
+    background-color: beige;
+}
+
+.side_list a{
+    color: black;
+}
+
+/*메인*/
+main{
+    display: flex;
+    width: 1000px;
+    margin : 0 auto;
+}
+
+form{
+    width: 800px;
+}
+
+.form_info1 .info_row{
+    display: flex;
+    gap : 4%;
+    margin-bottom: 20px;
+}
+
+.info_row li{
+    width: 45%;
+}
+
+.tech_wrapper{
+    height: auto !important;
+}
+
+.tech_wrapper tags{
+    border: none;
+}
+
+.tech_wrapper li{
+    width: 100%;
+}
+
+#expectedStartDate::after{
+    border: none !important;
+}
+
+section h2{
+    margin-bottom: 35px;
+}
+
+.recruitment_wrapper{
+    width: 80%;
+}
+
+.recruitment_wrapper span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.recruit_ment_input{
+    margin-bottom: 20px;
+}
+
+
+.recruit_introduction textarea{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    resize: none;
+    overflow-y: scroll
+}
+
+#recruit_add{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: #77D87C;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin: 30px 0;
+    float: right;
+}
+
+.email_input_btn .inputBox {
+    width: 100% !important;
+}
+
+/*메인*/
